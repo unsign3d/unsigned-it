@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       label: 'About me / GDPR / Terms',
-      path: '/pages/about'
+      path: '/pages/about-gdpr-tc'
     },
   ],
   author: {
