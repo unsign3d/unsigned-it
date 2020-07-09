@@ -10,7 +10,6 @@ module.exports = {
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
-    disqusShortname: siteConfig.disqusShortname,
     menu: siteConfig.menu,
     author: siteConfig.author
   },
@@ -137,15 +136,6 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/index.js`,
       }
-    },
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: [siteConfig.googleAnalyticsId],
-        pluginConfig: {
-          head: true,
-        },
-      },
     },
     {
       resolve: 'gatsby-plugin-sitemap',
