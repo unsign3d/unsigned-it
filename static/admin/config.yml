@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: unsign3d/unsigned-it
   branch: master
 
 media_folder: "static/media"
