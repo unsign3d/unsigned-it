@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://lucabruzzone.me',
   pathPrefix: '/',
   title: `Unsigned's space`,
   subtitle: 'Just another attempt of sharing some knowledge that I acquired and could be useful',
@@ -26,7 +26,7 @@ module.exports = {
       email: '',
       facebook: '',
       telegram: '',
-      twitter: '',
+      twitter: 'unsign3d',
       github: 'unsign3d',
       rss: '',
       vkontakte: '',
