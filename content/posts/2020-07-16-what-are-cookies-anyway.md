@@ -2,7 +2,7 @@
 template: post
 title: What are cookies anyway?
 slug: what-are-cookies-anyway
-draft: true
+draft: false
 date: 2020-07-16T08:00:54.344Z
 description: This is a bit of a technically lighter explanation meant for not
   technical people to try to understand what is a cookie and why should you even
