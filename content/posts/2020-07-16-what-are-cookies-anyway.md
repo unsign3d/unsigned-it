@@ -7,9 +7,9 @@ date: 2020-07-16T08:00:54.344Z
 description: This is a bit of a technically lighter explanation meant for not
   technical people to try to understand what is a cookie and why should you even
   care about it.
-category: networking basics
+category: basics
 tags:
-  - networking basics
+  - basics
 ---
 ![Photo by Christina Branco on Unsplash](/media/christina-branco-7p-wc2z2ujs-unsplash.jpg "Photo by Christina Branco on Unsplash")
 
