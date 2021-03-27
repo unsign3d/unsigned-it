@@ -85,6 +85,7 @@
     "@babel/plugin-transform-flow-strip-types": "^7.10.4",
     "@babel/preset-env": "7.10.4",
     "@babel/preset-react": "7.10.4",
+    "@babel/helper-define-map": "^7.13.12",
     "autoprefixer": "9.8.4",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.1.0",
