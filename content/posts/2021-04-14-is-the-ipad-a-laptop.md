@@ -7,6 +7,8 @@ date: 2021-04-14T09:05:33.777Z
 description: Just my personal story of trying to switch from a normal laptop to
   an ipad for my day to day use
 category: life
+tags:
+  - basics
 ---
 ![ipad with leaf](/media/leone-venter-pvt9j3iwtpm-unsplash.jpg)
 
