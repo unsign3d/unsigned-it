@@ -2,7 +2,7 @@
 template: post
 title: Is the iPad a laptop?
 slug: is-ipad-a-laptop
-draft: true
+draft: false
 date: 2021-04-14T09:05:33.777Z
 description: Just my personal story of trying to switch from a normal laptop to
   an ipad for my day to day use
