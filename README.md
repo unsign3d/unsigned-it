@@ -1,1 +1,1 @@
-# new readme
+# THIS IS DEPRECATED, I'M NOW ON HASHNODE
