@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>basics on Random thoughts and ideas</title><link>https://lucabruzzone.me/tags/basics/</link><description>Recent content in basics on Random thoughts and ideas</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>All content is under CC BY-SA license. Luca Bruzzone</copyright><lastBuildDate>Wed, 14 Apr 2021 09:05:33 +0000</lastBuildDate><atom:link href="https://lucabruzzone.me/tags/basics/index.xml" rel="self" type="application/rss+xml"/><item><title>Is the iPad a laptop?</title><link>https://lucabruzzone.me/posts/is-ipad-a-laptop/</link><pubDate>Wed, 14 Apr 2021 09:05:33 +0000</pubDate><guid>https://lucabruzzone.me/posts/is-ipad-a-laptop/</guid><description>Why did I switched as a main machine to my iPad I switched since almost a year to the iPad as a main machine, this was due to the fact that I already had it, and I found myself using it way much more than my laptop, and I decided to invest some money in a keyboard and call it my main machine from that moment on.
-What I discovered is that, for certain workload, it was actually helping me to focus, thanks to the different way of thinking about computing that the iPad has.</description></item><item><title>What are cookies anyway?</title><link>https://lucabruzzone.me/posts/what-are-cookies-anyway/</link><pubDate>Thu, 16 Jul 2020 08:00:54 +0000</pubDate><guid>https://lucabruzzone.me/posts/what-are-cookies-anyway/</guid><description>This is a bit of a technically lighter explanation meant for not technical people to try to understand what is a cookie and why should you even care about it.
-Disclaimer for technical people, to boil it down, some stuff will be purposely slightly inaccurate, or more reflective of HTTP 1 instead of HTTP 2. But for the sake of understanding why cookie matters or not, it&amp;rsquo;s irrelevant.
-A web server doesn&amp;rsquo;t necessarily remember you To understand the need for cookies, what you need to know at the beginning, is the fact that every time that you reload a page, the &amp;ldquo;website&amp;rdquo; doesn&amp;rsquo;t necessarily know if you reload three times, or you are three different people.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>basics on Random thoughts and ideas</title><link>https://lucabruzzone.me/tags/basics/index.xml</link><description>Recent content in basics on Random thoughts and ideas</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>All content is under CC BY-SA license. Luca Bruzzone</copyright><lastBuildDate>Wed, 14 Apr 2021 09:05:33 +0000</lastBuildDate><atom:link href="https://lucabruzzone.me/tags/basics/index.xml" rel="self" type="application/rss+xml"/><item><title>Is the iPad a laptop?</title><link>https://lucabruzzone.me/posts/is-ipad-a-laptop/index.xml</link><pubDate>Wed, 14 Apr 2021 09:05:33 +0000</pubDate><guid>https://lucabruzzone.me/posts/is-ipad-a-laptop/</guid><description>&lt;h2 id="why-did-i-switched-as-a-main-machine-to-my-ipad">Why did I switched as a main machine to my iPad&lt;/h2>
+&lt;p>I switched since almost a year to the iPad as a main machine, this was due to the fact that I already had it, and I found myself using it way much more than my laptop, and I decided to invest some money in a keyboard and call it my main machine from that moment on.&lt;/p>
+&lt;p>What I discovered is that, for certain workload, it was actually helping me to focus, thanks to the different way of thinking about computing that the iPad has.&lt;/p>
+&lt;p>The first one, more obvious is the different way of multi tasking. This comes in handy when you need to have long moments of concentration doing just one thing.&lt;/p>
+&lt;p>The second one, is that usually apps, or websites, on the iPad are way less complicated and more immersive.
+An example of the app that I’m using to write this blogpost, Bear, on the iPad the whole screen is immerse in the editor mode, in the MacBook you need to configure it like that.&lt;/p>
+&lt;p>Also battery life is way better then normal laptops for a price that for the base model (which is ok for most use) is just unbeatable, although at the time of the writing of this blogpost, my personal preference is on the Air.&lt;/p>
+&lt;h3 id="other-things-that-i-learned-maybe-too-late-on-using-the-ipad-are">Other things that I learned maybe too late on using the iPad are:&lt;/h3>
+&lt;ul>
+&lt;li>never use the app from youtube, always use the website, on how I’m using it it’s just a way better experience&lt;/li>
+&lt;li>use shortcuts [as in buttons from the app Shortcuts] as much as possible, they actually makes you save a lot of time and lets you get concentrated again&lt;/li>
+&lt;li>mostly keep your iPad in do not disturb [you should do the same during your focus hours with your laptop too]&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-i-found-out-that-i-still-need-a-laptop-and-which-laptop-i-choose">Why I found out that I still need a laptop, and which laptop I choose&lt;/h2>
+&lt;p>tl;dr mostly because I’m a developer&lt;/p>
+&lt;p>The main problems that I found with the iPad, that pushed me to actually buy a laptop are mainly those&lt;/p>
+&lt;h3 id="weird-support-of-external-monitors">Weird support of external monitors&lt;/h3>
+&lt;p>Sometimes you want to be focused on one things, sometimes you really need to have multiple things going on at the same time, you can mostly do it with the split screen but for example: reading something while writing with the pencil on notes.
+This interaction is awful, you can solve it with 2 iPads or with some other ways to read stuff (maybe reading from your phone).
+If you have a laptop you can actually do both (you can’t write with a pen on most laptop tho)&lt;/p>
+&lt;h3 id="safari">Safari&lt;/h3>
+&lt;p>It’s not that much of a problem now, but Safari is slowly deciding to implement less and less APIs, this hinder a lot the possibility of websites to express themselves in the most complete ways that they are envisioned.
+Also support for newer video technology is coming later than on chrome and Firefox.&lt;/p>
+&lt;h3 id="the-camera-positioning">The camera positioning&lt;/h3>
+&lt;p>Seriously, the iPad would be amazing for video calling if the camera would be on the long side and not on the short side, that is so bad that makes it almost unusable&lt;/p>
+&lt;h3 id="development-environment">Development environment&lt;/h3>
+&lt;p>The most important part for me is the development environment, most of the ways of developing with an iPad requires cloud editors with machines attached to it and basically you’re at the mercy of your internet connection.
+A laptop doesn’t have those problems&lt;/p>
+&lt;h2 id="which-laptop-i-chose">Which laptop I chose&lt;/h2>
+&lt;p>I was uncertain between the new m1 MacBook air and the Dell XPS 13, long time my favourite laptop. But because of 2 main reasons I choose the MacBook air:&lt;/p>
+&lt;ul>
+&lt;li>Battery life&lt;/li>
+&lt;li>Amazing integrated apps for productivity and seamless connection with the iPad and iPhone&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusions">Conclusions&lt;/h2>
+&lt;p>In the end computers are tools that are making our life easier, we should think about it as such and not taking factions.
+I think I will mostly still use the iPad in my day to day, but having a laptop for&lt;/p></description></item><item><title>What are cookies anyway?</title><link>https://lucabruzzone.me/posts/what-are-cookies-anyway/index.xml</link><pubDate>Thu, 16 Jul 2020 08:00:54 +0000</pubDate><guid>https://lucabruzzone.me/posts/what-are-cookies-anyway/</guid><description>&lt;p>This is a bit of a technically lighter explanation meant for not technical people to try to understand what is a cookie and why should you even care about it.&lt;/p>
+&lt;p>Disclaimer for technical people, to boil it down, some stuff will be purposely slightly inaccurate, or more reflective of HTTP 1 instead of HTTP 2. But for the sake of understanding why cookie matters or not, it&amp;rsquo;s irrelevant.&lt;/p>
+&lt;h2 id="a-web-server-doesnt-necessarily-remember-you">A web server doesn&amp;rsquo;t necessarily remember you&lt;/h2>
+&lt;p>To understand the need for cookies, what you need to know at the beginning, is the fact that every time that you reload a page, the &amp;ldquo;website&amp;rdquo; doesn&amp;rsquo;t necessarily know if you reload three times, or you are three different people. By the fact of how HTTP works, every load of a page (and more technically also every image, video, whatever it&amp;rsquo;s in that page) is done in a different &amp;ldquo;call&amp;rdquo; and, funny enough, if you&amp;rsquo;re on a train with a mobile phone, it could be asked from multiple different &amp;ldquo;web addresses&amp;rdquo;.&lt;/p>
+&lt;h2 id="but-how-does-a-website-knows-that-im-logged-in">But how does a website knows that I&amp;rsquo;m logged in?&lt;/h2>
+&lt;p>That&amp;rsquo;s a good question, and one of the way of doing it it&amp;rsquo;s with cookies.&lt;/p>
+&lt;p>One simple way to tell if the same user is requesting multiple pages (you&amp;rsquo;re clicking on a link, you&amp;rsquo;re closing your computer and coming next days) is with a simple trick: at some point in a visit, the website and the visitor are agreeing on a call-sign.&lt;/p>
+&lt;p>It more or less goes like this:&lt;/p>
+&lt;ul>
+&lt;li>Yo, I would like to know the weather&lt;/li>
+&lt;li>Sure, can I call you a866c58e-dff8-432b-abed-ee10f9a7fa64?&lt;/li>
+&lt;li>Sure, every time from now on that I&amp;rsquo;m asking you something I will send you a866c58e-dff8-432b-abed-ee10f9a7fa64&lt;/li>
+&lt;/ul>
+&lt;p>Now that you have a &amp;ldquo;shared secret&amp;rdquo; between you and the website, the website can recognize you and offer you personalized content.&lt;/p>
+&lt;h2 id="so-are-you-trying-to-tell-me-that-cookies-are-good-right">So, are you trying to tell me that cookies are good right?&lt;/h2>
+&lt;p>I&amp;rsquo;m just saying that it&amp;rsquo;s not necessarily an evil thing, but we need to go into a bit of a rabbit hole together.&lt;/p>
+&lt;p>Remember when I told you that every time that you&amp;rsquo;re loading an image, it&amp;rsquo;s like calling again the website? There is also another point, not everything on your website needs to be stored inside of the same website, it&amp;rsquo;s counter-intuitive at first, but it&amp;rsquo;s how most of the internet is working.&lt;/p>
+&lt;p>Let&amp;rsquo;s say that you&amp;rsquo;re loading &lt;a href="http://cutedoggo.net">cutedoggo.net&lt;/a>, and this website is a list of cute pictures of dogs, the pictures of the dogs are stored on different websites, it could be Facebook, it could be Giphy, it could be everything. So, when you&amp;rsquo;re loading &lt;a href="http://cutedoggo.net">cutedoggo.net&lt;/a>, Facebook receives a call that says more or less this:&lt;/p>
+&lt;ul>
+&lt;li>Hi, I&amp;rsquo;m safjhasjfhaskjdfhaskjfh and I&amp;rsquo;m calling from &lt;a href="http://cutedoggo.net">cutedoggo.net&lt;/a>, can I have please that cute picture of that dog?&lt;/li>
+&lt;li>Sure safjhasjfhaskjdfhaskjfh, here is your picture&lt;/li>
+&lt;/ul>
+&lt;p>This is called third-party cookies, because, no matter that you&amp;rsquo;re on &lt;a href="http://cutedoggo.net">cutedoggo.net&lt;/a>, some company like Facebook already knows that you&amp;rsquo;re logged on Facebook and then if you&amp;rsquo;re asking for content on their platform, not only they know what you requested, but also from which website you did, and that opens the pandora box.&lt;/p>
+&lt;h2 id="how-it-can-be-used-wrong">How it can be used wrong&lt;/h2>
+&lt;p>One of the classical examples is that I&amp;rsquo;m a company that likes to advertise stuff, I have my images or stuff like that in a lot of websites, for example, I have them in car manufacturer websites, and I know which page you&amp;rsquo;re seeing, so, you&amp;rsquo;re interested in EV, in a range of 20-25k, you&amp;rsquo;re also usually in the city, so I think you want a city car EV, let me present you all your options for EV on the market that you will like as soon as you&amp;rsquo;re on Instagram and Facebook, and why not, I&amp;rsquo;m also putting it into your GF&amp;rsquo;s feed.&lt;/p>
+&lt;p>Up until this point, there is nothing evil on it, what raised the problem was that segmentation of you wanting to buy some stuff is not usually that straight forward, and some of the companies are doing a creepy job.&lt;/p>
+&lt;p>Let&amp;rsquo;s say that I know, because you searched for X, that you&amp;rsquo;re sick with something bad, and there is a pandemic that could wipe you out. Why not starting advertising to the kid, during the cartoons, some magic miracle cures that it&amp;rsquo;s not scientifically approved, or even better, life insurance.&lt;/p>
+&lt;p>This is at some extend illegal, but that&amp;rsquo;s basically why some regulation started to be in place&lt;/p>
+&lt;h2 id="but-why-would-you-create-a-website-that-contains-third-party-cookies">But, why would you create a website that contains third-party cookies?&lt;/h2>
+&lt;p>The answer from a developer perspective is A LOT of reasons.&lt;/p>
+&lt;p>There are a lot of companies that are helping you with part of the website that, if you would build on your own, it would be between very hard to impossible.&lt;/p>
+&lt;p>One of the most used services that you can find that it&amp;rsquo;s under fire for privacy reason, for example, is Google Analytics, this is an invaluable tool, that is telling you between other things, how many people visited your website, which page, and how much time did they stayed inside. If you would rewrite everything on your own, you would need to be Google. The downside is that now Google knows what people are watching and for how long, and they can better target you for advertising.&lt;/p>
+&lt;h2 id="so-should-i-consent-cookies-or-not">So, should I consent cookies, or not?&lt;/h2>
+&lt;p>That is your decision, and it can change between websites, also, some websites are giving you the possibility of checking which cookies you want to have.&lt;/p>
+&lt;p>If you want the maximum of privacy, just allow technical cookies (eg. the ones that are keeping you logged in), and don&amp;rsquo;t check for the advertisement cookies, if you don&amp;rsquo;t care, just allow them all.&lt;/p></description></item></channel></rss>

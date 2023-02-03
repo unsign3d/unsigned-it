@@ -1,11 +1,267 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Random thoughts and ideas</title><link>https://lucabruzzone.me/posts/</link><description>Recent content in Posts on Random thoughts and ideas</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>All content is under CC BY-SA license. Luca Bruzzone</copyright><lastBuildDate>Fri, 04 Nov 2022 09:05:33 +0000</lastBuildDate><atom:link href="https://lucabruzzone.me/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Node's (19.1) test runner, initial impressions and opinions</title><link>https://lucabruzzone.me/posts/nodes-191-test-runner-initial-impressions-and-opinions/</link><pubDate>Fri, 04 Nov 2022 09:05:33 +0000</pubDate><guid>https://lucabruzzone.me/posts/nodes-191-test-runner-initial-impressions-and-opinions/</guid><description>Node&amp;rsquo;s (19.1) test runner, initial impressions and opinions Photo by Nguyen Dang Hoang Nhu on Unsplash
-Note: what I write could be wrong by the time that you read it At the time of writing (node 19.1), test APIs are to be considered experimental, so what I write could be out of date by the time a new node version will be out
-Intro At the end of this blog post, you will know what I think about the &amp;ldquo;new&amp;rdquo; feature of node, of having a built-in test runner.</description></item><item><title>Is the iPad a laptop?</title><link>https://lucabruzzone.me/posts/is-ipad-a-laptop/</link><pubDate>Wed, 14 Apr 2021 09:05:33 +0000</pubDate><guid>https://lucabruzzone.me/posts/is-ipad-a-laptop/</guid><description>Why did I switched as a main machine to my iPad I switched since almost a year to the iPad as a main machine, this was due to the fact that I already had it, and I found myself using it way much more than my laptop, and I decided to invest some money in a keyboard and call it my main machine from that moment on.
-What I discovered is that, for certain workload, it was actually helping me to focus, thanks to the different way of thinking about computing that the iPad has.</description></item><item><title>What are cookies anyway?</title><link>https://lucabruzzone.me/posts/what-are-cookies-anyway/</link><pubDate>Thu, 16 Jul 2020 08:00:54 +0000</pubDate><guid>https://lucabruzzone.me/posts/what-are-cookies-anyway/</guid><description>This is a bit of a technically lighter explanation meant for not technical people to try to understand what is a cookie and why should you even care about it.
-Disclaimer for technical people, to boil it down, some stuff will be purposely slightly inaccurate, or more reflective of HTTP 1 instead of HTTP 2. But for the sake of understanding why cookie matters or not, it&amp;rsquo;s irrelevant.
-A web server doesn&amp;rsquo;t necessarily remember you To understand the need for cookies, what you need to know at the beginning, is the fact that every time that you reload a page, the &amp;ldquo;website&amp;rdquo; doesn&amp;rsquo;t necessarily know if you reload three times, or you are three different people.</description></item><item><title>Communication between microservices</title><link>https://lucabruzzone.me/posts/communication-between-microservices/</link><pubDate>Wed, 01 Jul 2020 12:44:00 +0000</pubDate><guid>https://lucabruzzone.me/posts/communication-between-microservices/</guid><description>This article was written and published 2020–01–07 on my personal blog, this is a repost
-The problem Let’s say that you’re developing a software in a monolithic approach and you need to create a new functionality. What you will probably do is to search or define a new “business identity” and from there create what you need. If you need to expose something, you will create appropriate APIs, and if you need something from somewhere else, you will just call that method on that class.</description></item><item><title>DIY React state manager</title><link>https://lucabruzzone.me/posts/2018-09-07-diy-react-state-manager/</link><pubDate>Fri, 07 Sep 2018 12:44:00 +0000</pubDate><guid>https://lucabruzzone.me/posts/2018-09-07-diy-react-state-manager/</guid><description>DIY React state manager This is a tutorial aim to demystify what libraries like react-redux does under the hood and learn about the new context apis
-https://www.pexels.com/photo/woman-holding-white-string-lights-1366178/
-Why even bother I think there are a couple of reasons why you should be interested in how state management works.
-If you know how it works under the hood, a lot of problems that you might have will be more simple to debug, especially if you’re moving away from a consolidated library to a new library which is more edgy you could face some problems Global state is great but sometimes you don’t want to pollute it for ephemeral things, for example if you have a couple of components that needs to be rendered just in some occasions (loaders, small user stories) you may want to put it put of the global state use the internal state, this has pros (independency) and cons (multiple responsibilities of the component, not clear separation between data and view) Find new ways to avoid Prop Drilling when necessary, after playing around I found new ways to manage my dependencies What does a state manager even do then?</description></item><item><title>Genetic Algorithms, what are those and my impression</title><link>https://lucabruzzone.me/posts/genetic-algorithms-what-are-those-and-my-impression/</link><pubDate>Mon, 21 May 2018 12:44:00 +0000</pubDate><guid>https://lucabruzzone.me/posts/genetic-algorithms-what-are-those-and-my-impression/</guid><description>Genetic Algorithms, what are those and my impression What is a Genetic Algorithm (GA) and why use it Let’s pretend that you have a problem in which you have a set of constraints and you want to find the maximum [or minimum] acheivable, this is one option.
-One of the main advantages is that is highly parallelizable, so you can start with random (or less random) points in which you think that your solutions are good enough to be considered and then you find the perfect combination.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Random thoughts and ideas</title><link>https://lucabruzzone.me/posts/index.xml</link><description>Recent content in Posts on Random thoughts and ideas</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>All content is under CC BY-SA license. Luca Bruzzone</copyright><lastBuildDate>Fri, 04 Nov 2022 09:05:33 +0000</lastBuildDate><atom:link href="https://lucabruzzone.me/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Node's (19.1) test runner, initial impressions and opinions</title><link>https://lucabruzzone.me/posts/nodes-191-test-runner-initial-impressions-and-opinions/index.xml</link><pubDate>Fri, 04 Nov 2022 09:05:33 +0000</pubDate><guid>https://lucabruzzone.me/posts/nodes-191-test-runner-initial-impressions-and-opinions/</guid><description>&lt;h1 id="nodes-191-test-runner-initial-impressions-and-opinions">Node&amp;rsquo;s (19.1) test runner, initial impressions and opinions&lt;/h1>
+&lt;p>Photo by &lt;!-- raw HTML omitted -->Nguyen Dang Hoang Nhu&lt;!-- raw HTML omitted --> on &lt;!-- raw HTML omitted -->Unsplash&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h2 id="note-what-i-write-could-be-wrong-by-the-time-that-you-read-it">Note: what I write could be wrong by the time that you read it&lt;/h2>
+&lt;p>At the time of writing (node 19.1), test APIs are to be considered experimental, so what I write could be out of date by the time a new node version will be out&lt;/p>
+&lt;h2 id="intro">Intro&lt;/h2>
+&lt;p>At the end of this blog post, you will know what I think about the &amp;ldquo;new&amp;rdquo; feature of node, of having a built-in test runner. Refer to the documentation here &lt;a href="https://nodejs.org/docs/latest-v19.x/api/test.html">https://nodejs.org/docs/latest-v19.x/api/test.html&lt;/a>&lt;/p>
+&lt;h2 id="tldr--conclusions">TL;DR / Conclusions&lt;/h2>
+&lt;p>It&amp;rsquo;s good stuff, but you will probably want to wait before using it, since it might change at any moment.&lt;/p>
+&lt;h2 id="how-did-i-tested-it">How did I tested it&lt;/h2>
+&lt;p>I created a new project with Create React App, and quickly understood that was the worst possible way to test it.
+The main difference of the test runner integrated in Node, and something like Jest, is that the test runner, &lt;strong>just does that, nothing more&lt;/strong>; so, as some of you might have imagined, I was greeted with syntax errors.&lt;/p>
+&lt;p>I then created the minimal way that I can think about testing it:&lt;/p>
+&lt;ul>
+&lt;li>Create a module that does weird stuff&lt;/li>
+&lt;li>Create a consumer&lt;/li>
+&lt;li>Create tests for it&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-i-liked">What I liked&lt;/h2>
+&lt;p>&lt;strong>Speed&lt;/strong>
+The first thing that really hit me, was the sheer speed difference, between the same(-ish, there are some syntactic differences) test was between jest and node directly. The whole test suite (1 file, 2 tests) took ~0.5 seconds on Jest and ~50ms on node.
+I know by experience that the vast majority of that time is actually for bootstrapping everything, so that number will look very different on a long list of tests, and I have a feeling that in that case, the speed difference might be less that what I&amp;rsquo;m suggesting.&lt;/p>
+&lt;p>&lt;strong>No external dependency needed&lt;/strong>
+That&amp;rsquo;s it, you call &lt;code>node --test&lt;/code> and it works, more languages should do it&lt;/p>
+&lt;p>&lt;strong>It outputs TAP&lt;/strong>
+&lt;a href="https://testanything.org/">TAP&lt;/a> is a standard protocol for testing suites, also in the case of the node runner, &lt;code>run&lt;/code> will output a stream that can be parsed by another program.
+If you will use directly this test runner, especially coming from something different, like Jest, or Rspec, you might find it different, and you might have mixed feelings about it, but I really feel that this is the right approach for something embedded inside of the language itself.
+The explanation why it&amp;rsquo;s a good idea, is that it&amp;rsquo;s simple, both to read for a developer, and for a software to parse it, and output a different visualisation; also you could run something more &amp;ldquo;flashy&amp;rdquo; on your personal machine, and run the faster and simpler TAP on the CI/CD in case that you want to do that.&lt;/p>
+&lt;h2 id="what-i-didnt-liked">What I didn&amp;rsquo;t liked&lt;/h2>
+&lt;p>I don&amp;rsquo;t think I&amp;rsquo;ve seen anything that I don&amp;rsquo;t like at this point, it does what it&amp;rsquo;s supposed to.&lt;/p>
+&lt;p>One thing that may throw off some people, is that, because, in my opinion, it&amp;rsquo;s the least opinionated as possible, you will not have any magic that you will have in Jest.
+One example is the mocking of dependencies, I&amp;rsquo;m pretty sure that it will be left out, and it will be up to the developer to choose if doing dependency injection, or use a tool like &lt;a href="https://github.com/thlorenz/proxyquire">Proxyquire&lt;/a>&lt;/p></description></item><item><title>Is the iPad a laptop?</title><link>https://lucabruzzone.me/posts/is-ipad-a-laptop/index.xml</link><pubDate>Wed, 14 Apr 2021 09:05:33 +0000</pubDate><guid>https://lucabruzzone.me/posts/is-ipad-a-laptop/</guid><description>&lt;h2 id="why-did-i-switched-as-a-main-machine-to-my-ipad">Why did I switched as a main machine to my iPad&lt;/h2>
+&lt;p>I switched since almost a year to the iPad as a main machine, this was due to the fact that I already had it, and I found myself using it way much more than my laptop, and I decided to invest some money in a keyboard and call it my main machine from that moment on.&lt;/p>
+&lt;p>What I discovered is that, for certain workload, it was actually helping me to focus, thanks to the different way of thinking about computing that the iPad has.&lt;/p>
+&lt;p>The first one, more obvious is the different way of multi tasking. This comes in handy when you need to have long moments of concentration doing just one thing.&lt;/p>
+&lt;p>The second one, is that usually apps, or websites, on the iPad are way less complicated and more immersive.
+An example of the app that I’m using to write this blogpost, Bear, on the iPad the whole screen is immerse in the editor mode, in the MacBook you need to configure it like that.&lt;/p>
+&lt;p>Also battery life is way better then normal laptops for a price that for the base model (which is ok for most use) is just unbeatable, although at the time of the writing of this blogpost, my personal preference is on the Air.&lt;/p>
+&lt;h3 id="other-things-that-i-learned-maybe-too-late-on-using-the-ipad-are">Other things that I learned maybe too late on using the iPad are:&lt;/h3>
+&lt;ul>
+&lt;li>never use the app from youtube, always use the website, on how I’m using it it’s just a way better experience&lt;/li>
+&lt;li>use shortcuts [as in buttons from the app Shortcuts] as much as possible, they actually makes you save a lot of time and lets you get concentrated again&lt;/li>
+&lt;li>mostly keep your iPad in do not disturb [you should do the same during your focus hours with your laptop too]&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-i-found-out-that-i-still-need-a-laptop-and-which-laptop-i-choose">Why I found out that I still need a laptop, and which laptop I choose&lt;/h2>
+&lt;p>tl;dr mostly because I’m a developer&lt;/p>
+&lt;p>The main problems that I found with the iPad, that pushed me to actually buy a laptop are mainly those&lt;/p>
+&lt;h3 id="weird-support-of-external-monitors">Weird support of external monitors&lt;/h3>
+&lt;p>Sometimes you want to be focused on one things, sometimes you really need to have multiple things going on at the same time, you can mostly do it with the split screen but for example: reading something while writing with the pencil on notes.
+This interaction is awful, you can solve it with 2 iPads or with some other ways to read stuff (maybe reading from your phone).
+If you have a laptop you can actually do both (you can’t write with a pen on most laptop tho)&lt;/p>
+&lt;h3 id="safari">Safari&lt;/h3>
+&lt;p>It’s not that much of a problem now, but Safari is slowly deciding to implement less and less APIs, this hinder a lot the possibility of websites to express themselves in the most complete ways that they are envisioned.
+Also support for newer video technology is coming later than on chrome and Firefox.&lt;/p>
+&lt;h3 id="the-camera-positioning">The camera positioning&lt;/h3>
+&lt;p>Seriously, the iPad would be amazing for video calling if the camera would be on the long side and not on the short side, that is so bad that makes it almost unusable&lt;/p>
+&lt;h3 id="development-environment">Development environment&lt;/h3>
+&lt;p>The most important part for me is the development environment, most of the ways of developing with an iPad requires cloud editors with machines attached to it and basically you’re at the mercy of your internet connection.
+A laptop doesn’t have those problems&lt;/p>
+&lt;h2 id="which-laptop-i-chose">Which laptop I chose&lt;/h2>
+&lt;p>I was uncertain between the new m1 MacBook air and the Dell XPS 13, long time my favourite laptop. But because of 2 main reasons I choose the MacBook air:&lt;/p>
+&lt;ul>
+&lt;li>Battery life&lt;/li>
+&lt;li>Amazing integrated apps for productivity and seamless connection with the iPad and iPhone&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusions">Conclusions&lt;/h2>
+&lt;p>In the end computers are tools that are making our life easier, we should think about it as such and not taking factions.
+I think I will mostly still use the iPad in my day to day, but having a laptop for&lt;/p></description></item><item><title>What are cookies anyway?</title><link>https://lucabruzzone.me/posts/what-are-cookies-anyway/index.xml</link><pubDate>Thu, 16 Jul 2020 08:00:54 +0000</pubDate><guid>https://lucabruzzone.me/posts/what-are-cookies-anyway/</guid><description>&lt;p>This is a bit of a technically lighter explanation meant for not technical people to try to understand what is a cookie and why should you even care about it.&lt;/p>
+&lt;p>Disclaimer for technical people, to boil it down, some stuff will be purposely slightly inaccurate, or more reflective of HTTP 1 instead of HTTP 2. But for the sake of understanding why cookie matters or not, it&amp;rsquo;s irrelevant.&lt;/p>
+&lt;h2 id="a-web-server-doesnt-necessarily-remember-you">A web server doesn&amp;rsquo;t necessarily remember you&lt;/h2>
+&lt;p>To understand the need for cookies, what you need to know at the beginning, is the fact that every time that you reload a page, the &amp;ldquo;website&amp;rdquo; doesn&amp;rsquo;t necessarily know if you reload three times, or you are three different people. By the fact of how HTTP works, every load of a page (and more technically also every image, video, whatever it&amp;rsquo;s in that page) is done in a different &amp;ldquo;call&amp;rdquo; and, funny enough, if you&amp;rsquo;re on a train with a mobile phone, it could be asked from multiple different &amp;ldquo;web addresses&amp;rdquo;.&lt;/p>
+&lt;h2 id="but-how-does-a-website-knows-that-im-logged-in">But how does a website knows that I&amp;rsquo;m logged in?&lt;/h2>
+&lt;p>That&amp;rsquo;s a good question, and one of the way of doing it it&amp;rsquo;s with cookies.&lt;/p>
+&lt;p>One simple way to tell if the same user is requesting multiple pages (you&amp;rsquo;re clicking on a link, you&amp;rsquo;re closing your computer and coming next days) is with a simple trick: at some point in a visit, the website and the visitor are agreeing on a call-sign.&lt;/p>
+&lt;p>It more or less goes like this:&lt;/p>
+&lt;ul>
+&lt;li>Yo, I would like to know the weather&lt;/li>
+&lt;li>Sure, can I call you a866c58e-dff8-432b-abed-ee10f9a7fa64?&lt;/li>
+&lt;li>Sure, every time from now on that I&amp;rsquo;m asking you something I will send you a866c58e-dff8-432b-abed-ee10f9a7fa64&lt;/li>
+&lt;/ul>
+&lt;p>Now that you have a &amp;ldquo;shared secret&amp;rdquo; between you and the website, the website can recognize you and offer you personalized content.&lt;/p>
+&lt;h2 id="so-are-you-trying-to-tell-me-that-cookies-are-good-right">So, are you trying to tell me that cookies are good right?&lt;/h2>
+&lt;p>I&amp;rsquo;m just saying that it&amp;rsquo;s not necessarily an evil thing, but we need to go into a bit of a rabbit hole together.&lt;/p>
+&lt;p>Remember when I told you that every time that you&amp;rsquo;re loading an image, it&amp;rsquo;s like calling again the website? There is also another point, not everything on your website needs to be stored inside of the same website, it&amp;rsquo;s counter-intuitive at first, but it&amp;rsquo;s how most of the internet is working.&lt;/p>
+&lt;p>Let&amp;rsquo;s say that you&amp;rsquo;re loading &lt;a href="http://cutedoggo.net">cutedoggo.net&lt;/a>, and this website is a list of cute pictures of dogs, the pictures of the dogs are stored on different websites, it could be Facebook, it could be Giphy, it could be everything. So, when you&amp;rsquo;re loading &lt;a href="http://cutedoggo.net">cutedoggo.net&lt;/a>, Facebook receives a call that says more or less this:&lt;/p>
+&lt;ul>
+&lt;li>Hi, I&amp;rsquo;m safjhasjfhaskjdfhaskjfh and I&amp;rsquo;m calling from &lt;a href="http://cutedoggo.net">cutedoggo.net&lt;/a>, can I have please that cute picture of that dog?&lt;/li>
+&lt;li>Sure safjhasjfhaskjdfhaskjfh, here is your picture&lt;/li>
+&lt;/ul>
+&lt;p>This is called third-party cookies, because, no matter that you&amp;rsquo;re on &lt;a href="http://cutedoggo.net">cutedoggo.net&lt;/a>, some company like Facebook already knows that you&amp;rsquo;re logged on Facebook and then if you&amp;rsquo;re asking for content on their platform, not only they know what you requested, but also from which website you did, and that opens the pandora box.&lt;/p>
+&lt;h2 id="how-it-can-be-used-wrong">How it can be used wrong&lt;/h2>
+&lt;p>One of the classical examples is that I&amp;rsquo;m a company that likes to advertise stuff, I have my images or stuff like that in a lot of websites, for example, I have them in car manufacturer websites, and I know which page you&amp;rsquo;re seeing, so, you&amp;rsquo;re interested in EV, in a range of 20-25k, you&amp;rsquo;re also usually in the city, so I think you want a city car EV, let me present you all your options for EV on the market that you will like as soon as you&amp;rsquo;re on Instagram and Facebook, and why not, I&amp;rsquo;m also putting it into your GF&amp;rsquo;s feed.&lt;/p>
+&lt;p>Up until this point, there is nothing evil on it, what raised the problem was that segmentation of you wanting to buy some stuff is not usually that straight forward, and some of the companies are doing a creepy job.&lt;/p>
+&lt;p>Let&amp;rsquo;s say that I know, because you searched for X, that you&amp;rsquo;re sick with something bad, and there is a pandemic that could wipe you out. Why not starting advertising to the kid, during the cartoons, some magic miracle cures that it&amp;rsquo;s not scientifically approved, or even better, life insurance.&lt;/p>
+&lt;p>This is at some extend illegal, but that&amp;rsquo;s basically why some regulation started to be in place&lt;/p>
+&lt;h2 id="but-why-would-you-create-a-website-that-contains-third-party-cookies">But, why would you create a website that contains third-party cookies?&lt;/h2>
+&lt;p>The answer from a developer perspective is A LOT of reasons.&lt;/p>
+&lt;p>There are a lot of companies that are helping you with part of the website that, if you would build on your own, it would be between very hard to impossible.&lt;/p>
+&lt;p>One of the most used services that you can find that it&amp;rsquo;s under fire for privacy reason, for example, is Google Analytics, this is an invaluable tool, that is telling you between other things, how many people visited your website, which page, and how much time did they stayed inside. If you would rewrite everything on your own, you would need to be Google. The downside is that now Google knows what people are watching and for how long, and they can better target you for advertising.&lt;/p>
+&lt;h2 id="so-should-i-consent-cookies-or-not">So, should I consent cookies, or not?&lt;/h2>
+&lt;p>That is your decision, and it can change between websites, also, some websites are giving you the possibility of checking which cookies you want to have.&lt;/p>
+&lt;p>If you want the maximum of privacy, just allow technical cookies (eg. the ones that are keeping you logged in), and don&amp;rsquo;t check for the advertisement cookies, if you don&amp;rsquo;t care, just allow them all.&lt;/p></description></item><item><title>Communication between microservices</title><link>https://lucabruzzone.me/posts/communication-between-microservices/index.xml</link><pubDate>Wed, 01 Jul 2020 12:44:00 +0000</pubDate><guid>https://lucabruzzone.me/posts/communication-between-microservices/</guid><description>&lt;p>This article was written and published 2020–01–07 on my personal blog, this is a repost&lt;/p>
+&lt;h1 id="the-problem">The problem&lt;/h1>
+&lt;p>Let’s say that you’re developing a software in a monolithic approach and you need to create a new functionality. What you will probably do is to search or define a new “business identity” and from there create what you need. If you need to expose something, you will create appropriate APIs, and if you need something from somewhere else, you will just call that method on that class.&lt;/p>
+&lt;p>When you’re switching to micro-services, or generally a distributed system, this could get a bit complicated because you will have bits of information everywhere and you will start to have complexity rising.&lt;/p>
+&lt;h1 id="just-call-it-approach">“Just call it” approach&lt;/h1>
+&lt;p>Let’s imagine that you have a main system and you want to create for now just a small micro-service that is offloading from the main server a small task that is heavy on load. Typical example of this, could be a PDF generation.&lt;/p>
+&lt;p>The most cost effective solution probably here could be creating the PDF generation “as a service” with an HTTP API (you have a bunch of choice for the protocol to use, you have REST, [g]RPC, GraphQL and many others).&lt;/p>
+&lt;p>If you’re using some server-less platform (like AWS Lambda), you may also have the SDK with method of communication already provided to you. In my experience, usually that is the most reliable method because it’s “optimized” by your vendor. Of course, if you’re not careful and you’re building your software entirely based on a 3rd party SDK and that changes, or you want to change vendor, this is usually a bad idea&lt;/p>
+&lt;h1 id="in-a-more-familiar-manner">In a more familiar manner&lt;/h1>
+&lt;p>You can think about this method as the traditional “service class” method, you’re delegating something to a class, and you are calling it. This just happens over the network&lt;/p>
+&lt;h1 id="pros">Pros&lt;/h1>
+&lt;ul>
+&lt;li>This is probably the simplest method that you can implement, it’s very junior-friendly and you will not have to explain and/or maintain complex architecture&lt;/li>
+&lt;li>It’s probably the method with the less moving parts (since you’re not relying on a 3rd service for maintaining the documentation)&lt;/li>
+&lt;li>It’s kinda easy to debug, you can associate a “request id” to the entirety of the request and you can see the whole flow of the request from your customer to the server that presented a problem&lt;/li>
+&lt;li>You can implement synchronous call to that server and make the client wait for that request (useful in some cases like payment or image manipulation)&lt;/li>
+&lt;/ul>
+&lt;h1 id="cons">Cons&lt;/h1>
+&lt;ul>
+&lt;li>You will need to maintain an API, with versioning&lt;/li>
+&lt;li>You will have a strong coupling, since the caller will need to know the existence of the server and how to communicate with it.&lt;/li>
+&lt;li>You will need to take into consideration network latency, downstream service being not ready or reliable and everything that comes with and external service, even if the service is internal&lt;/li>
+&lt;/ul>
+&lt;h1 id="message-driven-architecture">Message driven architecture&lt;/h1>
+&lt;p>This is a huge class of possibilities, here I will just touch the basics and the pros/cons of this approach.&lt;/p>
+&lt;p>I will create more articles about multiple possibilities of implementing this ideology.&lt;/p>
+&lt;h1 id="change-in-perspective">Change in perspective&lt;/h1>
+&lt;p>If you choose to approach this ideology, you will need to shift from the paradigm of A asking to B something, and maybe B to reply to a more inverse approach. If you have already worked with the observer pattern, this will be more natural.&lt;/p>
+&lt;p>Let’s take the old example of the invoice PDF generation.&lt;/p>
+&lt;p>In a traditional architecture you would have the main service creating the invoice and then asking a service to generate the PDF, when the PDF is created you will serve it in some way&lt;/p>
+&lt;p>In a message oriented architecture you have multiple players.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>A producer&lt;/strong>: a software that create something and “announce it” to the public&lt;/li>
+&lt;li>&lt;strong>A consumer&lt;/strong>: a software that get the “message” and consumes it&lt;/li>
+&lt;li>&lt;strong>A communication middleware / messaging system&lt;/strong>: It could be a message queue (RabbitMQ / ZeroMQ), a distributed logging (Apache Kafka) or anything that you can imagine&lt;/li>
+&lt;/ul>
+&lt;p>In the case of the example we will have our main application that &lt;strong>temporarily&lt;/strong> acts as a producer and announces to the middleware that the invoice is complete. The pdf generator will listen for messages and will &lt;strong>temporarily&lt;/strong> act as a consumer, taking all the information that he needs from the PDF generation and maybe he can also act as a producer and announce to the ecosystem that the PDF is ready (e.g.. you can have another service down the line that will take the PDF and sends it via email)&lt;/p>
+&lt;h1 id="pros-1">Pros&lt;/h1>
+&lt;p>As you can imagine already you will have an &lt;strong>extreme decoupling&lt;/strong> between services, if you’re sending enough information to describe the business action, everyone will be able to work without knowing about the consumers internal. This is usually why when you will start to encounter this kind of architectures when the project is expanding and more developers are joining, this is a typical architecture that you put in place to get to team independency&lt;/p>
+&lt;p>The log of the message could become a source to understand what is happening in your whole ecosystem, you can also take those data and create some analysis&lt;/p>
+&lt;h1 id="cons-1">Cons&lt;/h1>
+&lt;ul>
+&lt;li>Your communication middleware will become quickly your bottleneck&lt;/li>
+&lt;li>Usually you don’t have guaranteed orders on the events, so you will need to create your code to adjust for those situations&lt;/li>
+&lt;li>Duplication of similar events&lt;/li>
+&lt;li>Difficulty of handling failures (in some cases you may have data loss, in some systems, data loss is actually taken into consideration and the ecosystem is built around it)&lt;/li>
+&lt;li>Depending on the complexity of the project you will be unable to understand the full picture of what it’s going on after an action (as soon as you will embrace it, this will not be a problem anymore)&lt;/li>
+&lt;/ul>
+&lt;h1 id="why-should-i-use-it-then-if-its-so-complicated">Why should I use it then if it’s so complicated&lt;/h1>
+&lt;p>&lt;strong>tl;dr&lt;/strong> usually it grows better and gives way fewer problems than similar alternatives, most of the problems are already solved for you and there is enough literature to not being afraid&lt;/p>
+&lt;p>&lt;strong>The long answer&lt;/strong>&lt;/p>
+&lt;p>If you need to have synchronous replies, this method is not the go-to. Just find some method to communicate directly and use it.&lt;/p>
+&lt;p>If you’re not in a rush and you can do stuff in a more asynchronous way you can have a lot more advantages with this approach. If you have already used the observer pattern you will be more appreciative of this.&lt;/p>
+&lt;p>Let’s take an example of a payment, as soon as the payment is complete you want to do the following:&lt;/p>
+&lt;ul>
+&lt;li>create an invoice&lt;/li>
+&lt;li>register somewhere that the user paid for accountancy&lt;/li>
+&lt;li>unlock features / start the wearhouse procedure for shipment&lt;/li>
+&lt;li>update the CRM system&lt;/li>
+&lt;li>update other ERP systems&lt;/li>
+&lt;li>update dashboards&lt;/li>
+&lt;li>that thing that the other team is working on, but it’s a test, so it doesn’t really work that much&lt;/li>
+&lt;li>yeah we wanted also to do some tests, does the team have capacity?&lt;/li>
+&lt;/ul>
+&lt;p>This list of things has a couple of interesting properties:&lt;/p>
+&lt;ul>
+&lt;li>everything can be done in parallel&lt;/li>
+&lt;li>probably some of these points we don’t even want to know what is happening, and we would like to delegate it to other teams&lt;/li>
+&lt;/ul>
+&lt;p>As soon as you’re publishing in the event pipeline that the payment is complete, you don’t need to care anymore about anything else (if you’re not in charge of the other systems). Also, if you look at the quantity of stuff that you will need to do, you will see that if you parallelize it you may save a lot of time&lt;/p></description></item><item><title>DIY React state manager</title><link>https://lucabruzzone.me/posts/2018-09-07-diy-react-state-manager/index.xml</link><pubDate>Fri, 07 Sep 2018 12:44:00 +0000</pubDate><guid>https://lucabruzzone.me/posts/2018-09-07-diy-react-state-manager/</guid><description>&lt;h2 id="diy-react-state-manager">DIY React state manager&lt;/h2>
+&lt;p>This is a tutorial aim to demystify what libraries like react-redux does under the hood and learn about the new context apis&lt;/p>
+&lt;p>&lt;a href="https://www.pexels.com/photo/woman-holding-white-string-lights-1366178/">https://www.pexels.com/photo/woman-holding-white-string-lights-1366178/&lt;/a>&lt;/p>
+&lt;h4 id="why-even-bother">Why even bother&lt;/h4>
+&lt;p>I think there are a couple of reasons why you should be interested in how state management works.&lt;/p>
+&lt;ol>
+&lt;li>If you know how it works under the hood, a lot of problems that you might have will be more simple to debug, especially if you’re moving away from a consolidated library to a new library which is more edgy you could face some problems&lt;/li>
+&lt;li>Global state is great but sometimes you don’t want to pollute it for ephemeral things, for example if you have a couple of components that needs to be rendered just in some occasions (loaders, small user stories) you may want to put it put of the global state use the internal state, this has pros (independency) and cons (multiple responsibilities of the component, not clear separation between data and view)&lt;/li>
+&lt;li>Find new ways to avoid P&lt;a href="https://blog.kentcdodds.com/prop-drilling-bb62e02cb691">rop Drilling&lt;/a> when necessary, after playing around I found new ways to manage my dependencies&lt;/li>
+&lt;/ol>
+&lt;h4 id="what-does-a-state-manager-even-do-then">What does a state manager even do then?&lt;/h4>
+&lt;p>A state management is just a way to move the state from the component to outside of the component. In case you don’t know what a react state management is you can read &lt;a href="https://jobs.zalando.com/tech/blog/state-management-react/?gh_src=4n3gxh1">this article from Zalando&lt;/a>.&lt;/p>
+&lt;h3 id="here-we-go">Here we go&lt;/h3>
+&lt;p>Few points before starting:&lt;/p>
+&lt;ul>
+&lt;li>The article will follow the code in &lt;a href="https://github.com/unsign3d/react-context-global-state/">this repo&lt;/a>&lt;/li>
+&lt;li>We are using the new &lt;a href="https://reactjs.org/docs/context.html">Context Api&lt;/a>,&lt;/li>
+&lt;/ul>
+&lt;p>This is the entry point of everything and we are doing mainly this:&lt;/p>
+&lt;ul>
+&lt;li>We are storing the state (within the component state)&lt;/li>
+&lt;li>We are creating a context provider with some rudimentary APIs&lt;/li>
+&lt;li>We are passing on the consumer&lt;/li>
+&lt;/ul>
+&lt;h4 id="the-provider">The provider&lt;/h4>
+&lt;p>You may have encountered a context provider if you ever set up a react-redux project. The behaviour it’s quite straight forward, every children component will be able to ask for the state. If you’re just using the context api it will be just the context.&lt;/p>
+&lt;p>If you look at the code you will note that we need to give some features to the basic context provider:&lt;/p>
+&lt;ul>
+&lt;li>Binding of the context to a component state&lt;/li>
+&lt;li>Exposing an api to change the state&lt;/li>
+&lt;li>Basic debugging logs&lt;/li>
+&lt;/ul>
+&lt;h4 id="the-consumer">The consumer&lt;/h4>
+&lt;p>The consumer is actually the most boring part of it, you can basically use the Context consumer as is, you just need to include your component and you will have a block with the context.&lt;/p>
+&lt;p>My dislike for this approach comes from 2 major points&lt;/p>
+&lt;ul>
+&lt;li>Separation between data logic (in this case context) and view logic&lt;/li>
+&lt;li>Future proofing the code, if you want to change to a new state manager you should be able to just change the glue code and not rewriting your components&lt;/li>
+&lt;li>[bonus] having a connected object actually gives you much more flexibility and you can combine in one place data from different sources without the component caring where they came from&lt;/li>
+&lt;/ul>
+&lt;p>DISCLAIMER: My implementation is fairly opinionated by react-redux, you can use different patterns&lt;/p>
+&lt;p>This is the basic implementation of the connect function&lt;/p>
+&lt;p>And this is the basic usage of the connect function&lt;/p>
+&lt;p>This is the vanilla React Cat object&lt;/p>
+&lt;p>There are a few concepts from this 3 pieces of code&lt;/p>
+&lt;ul>
+&lt;li>You can use the “vanilla version” of the context exactly like I created the connect function, the connect function will just DRY out the usage&lt;/li>
+&lt;li>You can map context to props manually, this means that you can add external props and mix them to the context state (as in react-redux)&lt;/li>
+&lt;li>Cat.js is vanilla React, he doesn’t care about how the data got there, he knows what data is from the input and how to use it&lt;/li>
+&lt;/ul>
+&lt;h3 id="closing-remarks">Closing remarks&lt;/h3>
+&lt;p>I hope to have demystified the magic behind what is a state manager and how to use the new Context Api.&lt;/p>
+&lt;p>I hope that you will also be able to more critical choose which tool is best for you between state manager, context api and just prop drilling&lt;/p>
+&lt;p>Many thanks to &lt;a href="https://medium.com/@marcopoliefesto">https://medium.com/@marcopoliefesto&lt;/a> for proofreading and giving cool feedback on this article&lt;/p></description></item><item><title>Genetic Algorithms, what are those and my impression</title><link>https://lucabruzzone.me/posts/genetic-algorithms-what-are-those-and-my-impression/index.xml</link><pubDate>Mon, 21 May 2018 12:44:00 +0000</pubDate><guid>https://lucabruzzone.me/posts/genetic-algorithms-what-are-those-and-my-impression/</guid><description>&lt;h2 id="genetic-algorithms-what-are-those-and-my-impression">Genetic Algorithms, what are those and my impression&lt;/h2>
+&lt;h3 id="what-is-a-genetic-algorithm-ga-and-why-use-it">&lt;strong>What is a Genetic Algorithm (GA) and why use it&lt;/strong>&lt;/h3>
+&lt;p>Let’s pretend that you have a problem in which you have &lt;strong>a set of constraints&lt;/strong> and you want to find the maximum [or minimum] acheivable, this is one option.&lt;/p>
+&lt;p>One of the main advantages is that is &lt;strong>highly parallelizable&lt;/strong>, so you can start with random (or less random) points in which you think that your solutions are good enough to be considered and then you find the perfect combination.&lt;/p>
+&lt;h4 id="structure-of-a-ga">Structure of a GA&lt;/h4>
+&lt;p>In a normal GA you have the following elements in play&lt;/p>
+&lt;p>&lt;strong>An individual&lt;/strong>: the individual is responsible more or less to carry on his genes&lt;/p>
+&lt;p>&lt;strong>A population&lt;/strong>: It’s a collection of individual&lt;/p>
+&lt;p>Some sort of &lt;strong>representation of the problem&lt;/strong>, which includes:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>fitness funciton&lt;/strong> (that gives a score to each individual)&lt;/li>
+&lt;li>selection of the &lt;strong>fittest couple&lt;/strong> and the &lt;strong>unfittest individual&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>crossover&lt;/strong> (mating) of the fittest couple and creation of the new individual&lt;/li>
+&lt;li>&lt;strong>mutation&lt;/strong> of the individual in order to guarantee the variety of the population and not converge with an unoptimal solution&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>An example of output from a simple GA&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>yarn run v1.6.0&lt;br>
+$ ./node_modules/.bin/babel-node ./src/basic_structure/demo.js&lt;br>
+The fittest individual score: 2 with genes: [010100]&lt;br>
+The fittest individual score: 3 with genes: [110100]&lt;br>
+The fittest individual score: 4 with genes: [111100]&lt;br>
+The fittest individual score: 5 with genes: [111110]&lt;br>
+The fittest individual score: 4 with genes: [111100]&lt;br>
+The fittest individual score: 3 with genes: [110100]&lt;br>
+The fittest individual score: 2 with genes: [100100]&lt;br>
+The fittest individual score: 1 with genes: [100000]&lt;br>
+The fittest individual score: 0 with genes: [000000]&lt;br>
+The fittest individual score: 1 with genes: [100000]&lt;br>
+The fittest individual score: 2 with genes: [110000]&lt;br>
+The fittest individual score: 3 with genes: [110001]&lt;br>
+The fittest individual score: 4 with genes: [110011]&lt;br>
+The fittest individual score: 5 with genes: [111011]&lt;br>
+The fittest individual score: 6 with genes: [111111]&lt;br>
+Done in 1.02s.&lt;/p>
+&lt;/blockquote>
+&lt;p>In this simple case I wanted to find the candidate that score the most with a sum of boolean genes.&lt;/p>
+&lt;h4 id="possible-optimization-in-ga">&lt;strong>Possible optimization in GA&lt;/strong>&lt;/h4>
+&lt;p>First of all, you can calculate the fitness score (which is the most time expensive computationally) in multiple cores or even machines, in this case the algorithm is highly parallelizable.&lt;/p>
+&lt;p>If the fitness function is strictly related to the genes you can cache it and see just the one from the individual that is newly born, but in this case, in a real world scenario, I would argue that you can find a better algorithm.&lt;/p>
+&lt;h3 id="my-take-on-this-algorithm">My take on this algorithm&lt;/h3>
+&lt;p>First of all, this is the easiest and more broad example of the evolutionary algorithms, so the judgment cannot be that harsh, it’s like judging A*, it’s kinda pointless.&lt;/p>
+&lt;p>I think that if you take it isolated and you try to apply it to everything you fall under the A* Manhattan problem in which, yes you can solve a lot of problems, but you probably have better tools and optimization. As in A* Manhattan, this is a &lt;strong>easy and fairly accessible&lt;/strong> algorithm that can put you in front of a category of problems and start from there.&lt;/p>
+&lt;p>This is article is heavily influenced by &lt;a href="https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3">this article&lt;/a> on Medium.&lt;/p>
+&lt;p>I started a &lt;a href="https://github.com/unsign3d/evolutionary_algo">project on Github&lt;/a> with evolutionary algorithms in node js.&lt;/p></description></item></channel></rss>
