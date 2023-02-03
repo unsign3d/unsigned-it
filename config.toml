@@ -26,6 +26,10 @@ copyright="All content is under CC BY-SA license. Luca Bruzzone"
   name = "github"
   url = "https://github.com/unsign3d"
 
+[[params.ananke_socials]]
+  name = "rss"
+  url = "https://lucabruzzone.me/index.xml"
+
 [outputFormats]
   [outputFormats.rss]
     baseName = 'index'
